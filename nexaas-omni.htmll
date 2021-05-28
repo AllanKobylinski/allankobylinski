@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="PT">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169725298-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-169725298-1');
+  </script>
+
+  <meta charset="utf-8">
+  <title>Allan Kobylinski - UX/UI & Product designer</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800&display=swap"
+    rel="stylesheet">
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <nav class="navbar navbar-light custom-navbar" id="works-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/Logo.svg" alt="Allan Kobylinski">
+      </a>
+
+      <nav class="nav d-flex justify-content-md-center" style="min-height: 46px;">
+        <a class="nav-link" href="cv allan kobylinski.pdf" target="_blank">CV</a> 
+        <a class="nav-link" href="https://www.linkedin.com/in/allan-kobylinski-88798463/" target="_blank">Linkedin</a>
+        <a class="nav-link" href="mailto:allan.kobylinski@gmail.com">Contato</a>
+      </nav>
+
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="main-presentation">
+      <section class="main-project-description" data-aos="fade-up">
+        <div class="description-box">
+          <h1>Nexaas Omni - PDV</h1>
+          <p>Projeto focado em criar um aplicativo Android para maquinas de PDV, o qual desse a liberdade de vendas e melhor controle nas operações</p>
+          <div class="descriptions-points">
+            <div>
+              <h5>Data do projeto</h5>
+              <p>06/2020 - 12/2020</p>
+            </div>
+            <div>
+              <h5>Atuando como</h5>
+              <p>Product designer</p>
+            </div>
+            <div>
+              <h5>Plataforma</h5>
+              <p>Android</p>
+            </div>
+        </div>
+        </div>
+      </section>
+      <section class="main-project-img">
+        <img src="img/POS.png" alt="POS" style="position: relative;top: 36.2%;left: 30%;" data-aos="fade-left">
+      </section>
+    </section>
+
+    <section class="container mt-5 pt-5">
+      <div class="row col-md-12">
+        <h2>Sobre o Nexaas Omni</h2>
+        <p>O Nexaas Omni é uma suíte de aplicativos que permite a gestão e controle do seu negócio de forma rápida, fácil e eficiente. O foco dos seus produtos é promover a transformação digital no mercado varejista brasileiro, oferecendo uma experiência de venda única: mais ágil, integrada e eficiente.</p>
+      </div>
+
+      <div class="row col-md-12 mt-5 pt-5">
+        <h2>Objetivos</h2>
+        <p>Dado a crescente demanda por soluções omnichannel, vimos uma oportunidade de posicionar alguns produtos da Nexaas para atendê-las. Para isso, escolhemos alguns produtos para serem trabalhados e unificados em uma suíte a qual pudesse ser comercializada para nossos clientes.</p>
+
+        <p>O objetivo foi transformar os produtos existentes em uma suíte com o foco em uma melhor experiência de vendas e gestão. Dando aos usuários o total controle das operações, com eficiência e "compliance" das informações. Para que tudo funcionasse de forma correta, precisaríamos de um aplicativo que atuasse como orquestrados. Assim escolhemos o aplicativo de PDV para ser o primeiro a se tornar omnichannel.</p>
+      </div>
+
+      <div class="row col-md-12 mt-5 pt-5">
+        <h2>Problemas e desafios</h2>
+        <p>Por ser um aplicativo inicialmente concebido para atender pequenas operações, como vendas em restaurantes, pequenos comércios e lojas sem filiais os principais pontos a serem trabalhados foram:</p>
+        
+        <ul>
+          <li>Entender o funcionamento  de sistemas omnichannel e suas peculiaridades;</li>
+          <li>Realizar pesquisas com os clientes a fim de entender como eram suas operações atuais e como uma solução omnichannel poderia melhorar seus negócios;</li>
+          <li>Mapear as funcionalidades necessárias para o produto e ajustando as já existentes;</li>
+          <li> Criar um MVP funcional em 6 meses que pudesse ser usado com os clientes parceiros para validação do negócio.</li>
+        </ul>
+
+        <p>O maior desafio foi entender a real necessidade dos clientes nesse modelo de operações e poder identificar as oportunidades a serem trabalhadas no aplicativo.</p>
+
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="mb-1">
+            &copy;allankoby.com - All Rights Reserved
+          </p>
+        </div>
+        <div class="col-sm-6 social text-md-right">
+          <a href="https://www.behance.net/allankoby" target="_blank"><span class="icofont-behance"></span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/jquery/jquery-migrate.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/easing/easing.min.js"></script>
+  <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

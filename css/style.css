@@ -6,6 +6,65 @@
 */
 
 /*--------------------------------------------------------------
+# Works page
+--------------------------------------------------------------*/
+#works-navbar {
+  z-index: 9;
+  position: absolute;
+}
+
+#works-navbar nav a.nav-link{
+  color: #ffffff;
+}
+
+.main-presentation {
+  display: flex !important;
+}
+.main-presentation .main-project-img {
+  width: 50%; 
+  height: 700px; 
+  background: linear-gradient(122.5deg, #009EDB 0%, #172034 76.93%);
+  align-items: flex-end;
+}
+.main-presentation .main-project-description {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.main-project-description .description-box {
+  align-self: center;
+  padding: 3rem 6rem 1rem 3rem;
+  min-width: 600px;
+  margin-left: 200px;
+  z-index: 9;
+  background: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.main-project-description .description-box h1 {
+  font-weight: 800;
+  font-size: 42px;
+}
+.main-project-description .description-box p {
+  margin-bottom: 3rem;
+}
+
+.description-box .descriptions-points {
+  display: flex;
+}
+
+.description-box .descriptions-points div{
+  margin-right: 3rem;
+}
+.description-box .descriptions-points h5{
+  font-weight: bold;
+  font-size: 11px;
+}
+.description-box .descriptions-points p{
+  font-weight: 300;
+  font-size: 12px;
+}
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 
@@ -15,7 +74,6 @@
 }
 .subtitle-hero {
   font-size: 18px;
-  border-bottom: 3px solid #F3C623; 
 }
 .description {
   line-height: 180%;
@@ -32,7 +90,7 @@
 
 body {
   font-family: "Nunito Sans", monosapce;
-  background-color: #F4F6FF;
+  background-color: #ffffff;
   color: #10375C;
   animation: reverse;
 }
